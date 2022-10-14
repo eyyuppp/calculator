@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="481dp"
+        android:background="#151313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonClean"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#EA900C"
+                android:onClick="deleteClean"
+                android:text="A/C"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonNegative"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="+/-"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="deleteClean"
+                android:text="d"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonDivide"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="fourOperations"
+                android:text="/"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="7"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="8"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="9"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonİmpact"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="fourOperations"
+                android:text="X"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="4"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="5"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="6"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonExtraction"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="fourOperations"
+                android:text="-"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="1"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="2"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="3"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonCollection"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="fourOperations"
+                android:text="+"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="click"
+                android:text="0"
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonComma"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="otherOperations"
+                android:text=","
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonDut"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="otherOperations"
+                android:text="."
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonEqual"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/butonkenarlik"
+                android:backgroundTint="#F69506"
+                android:onClick="deleteClean"
+                android:text="="
+                android:textColor="#F59408"
+                android:textSize="24sp" />
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/textTransaction"
+        android:layout_width="407dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="4dp"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="number"
+        android:textColor="#F2920A"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/textResult"
+        android:layout_width="407dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="4dp"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="number"
+        android:textColor="#F2920A"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
